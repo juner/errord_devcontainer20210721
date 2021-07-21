@@ -2,6 +2,15 @@
 
 vscode-remote-container error container pattern.
 
+* Windows System Locale is `ja-JP`
+```pwsh
+PS> Get-WinSystemLocale
+
+LCID             Name             DisplayName
+----             ----             -----------
+1041             ja-JP            日本語 (日本)
+```
+
 ## OK pattern
 
 * v0.183.0 \
@@ -408,3 +417,7 @@ version: '3.7'
 ```
 
 </details>
+
+# issues
+
+* [`YAMLException: the stream contains non-printable characters.` occurs after v0.184.0. #5359](https://github.com/microsoft/vscode-remote-release/issues/5359)

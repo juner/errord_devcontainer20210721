@@ -4,7 +4,7 @@ vscode-remote-container error container pattern.
 
 ## OK pattern
 
-* v0.183.0
+* v0.183.0 \
 ![OK image](./img/2021-07-21_101404.png "OK Image")
 
 <details><summary>logs</summary>

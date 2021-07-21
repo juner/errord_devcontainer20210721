@@ -10,4 +10,4 @@ services:
     volumes:
       - ./:/var/www/html
     environment:
-      APP_TITLE: ＰＨＰサンプル🌟
+      APP_TITLE: ＰＨＰサンプル(テスト環境)
